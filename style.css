@@ -93,4 +93,9 @@ h1 {
 
 .faq-item.active .description {
   display: block;
+  font-weight: bolder;
+}
+.faq-item.active .title {
+  color: red;
+  font-weight: bold;
 }
