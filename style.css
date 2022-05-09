@@ -2,7 +2,11 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
   font-family: "Inconsolata", monospace;
   background-color: #f3f3f3;
   overflow: hidden;
@@ -42,7 +46,7 @@ h1 {
 }
 
 .faq-content {
-  max-width: 450px;
+  max-width: 600px;
   margin: 20px auto;
 }
 .faq-item {
@@ -54,7 +58,7 @@ h1 {
   position: relative;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: 0.5s ease;
+  transition: 0.8s ease;
 }
 
 .title {
@@ -62,7 +66,7 @@ h1 {
   color: grey;
 }
 .description {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   display: none;
 }
 
