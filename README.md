@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshot.png](Faq-screen.png)
+![./screenshot.png](faq-new.png)
 
 ### Links
 
