@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Inconsolata&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  height: 90vh;
+  position: relative;
+  width: 70vw;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.image-content {
+  margin-left: -100px;
+}
+
+.box-image {
+  position: absolute;
+  top: 280px;
+}
+
+.faq-content {
+  max-width: 450px;
+  margin: 20px auto;
+}
+.faq-item {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 0 15px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: grey;
+}
+.description {
+  font-size: 1.4rem;
+  display: none;
+}
+
+.btn-faq {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+.faq-item.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item.active .description {
+  display: block;
+}
